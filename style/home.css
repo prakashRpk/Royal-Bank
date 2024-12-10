@@ -1,0 +1,138 @@
+header{
+    width: 100%;
+    position: fixed;
+    background-color: #a28047;
+    z-index: 100000000; 
+} 
+nav{
+height: 70px;
+margin-left: 50%;
+align-content: center;
+}
+nav > a{
+    margin-left: 100px;
+    text-decoration: none;
+    color: white;
+}
+.Details{
+    width: 100%;
+    height: 750px;
+    color: white;
+}
+.Details > div{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 100px;
+    columns: 3;
+    column-gap: 50px;
+}
+.Details > div >h2{
+    margin-top: 40px;
+    width: 450px;
+}
+.Details > div >figure{
+    position: relative;
+    text-align: center; 
+    right: 100px;}
+.Details > div >figure>img{
+    width: 200px;
+    height: 250px;
+}
+.Debit{
+    width: 100%;
+    height: 750px;
+    color: white;
+}
+.Debit > div{
+    position:absolute;
+    width: 1500px;
+    left: 200px;
+    margin-top: 200px;
+}
+.Debit > div > h1{
+    font-size: 50px;
+}
+.Debit > div > h2{
+    margin-left: 400px;
+    font-size: 80px;
+}
+.one{
+    margin-top: 30px;
+    width: 300px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: #a28047;
+    color: white;
+    text-align: start;
+}
+.two{
+    width: 700px;
+}
+
+.Credit{
+    width: 100%;
+    height: 750px;
+    color: white;
+}
+.Credit > div{
+    position:absolute;
+    width: 1500px;
+    left: 200px;
+    margin-top: 200px;
+}
+.Credit > div > h1{
+    font-size: 50px;
+}
+.Credit > div > h2{
+    margin-left: 400px;
+    font-size: 80px;
+}
+.History{
+    width: 100%;
+    height: 750px;
+    color: white;
+}
+.History > div{
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    margin-top: 100px;
+}
+.contaier{
+    margin-left: 15%;
+    margin-top: 50px;
+    background-color: #a28047;
+    border-radius: 20px;
+    width: 1000px;
+    height: 500px;
+    overflow:auto ;
+}
+.lists{
+    width: 100%;
+    height: 200%;
+}
+.lists > div:nth-child(1){
+    background-color: black;
+}
+.lists > div{
+    margin-top: 10px;
+    padding: 15px;
+    background-color: transparent;
+}
+.lists > div > span:nth-child(1){
+    position: relative;
+    left: -350px;
+}
+.lists > div > span:nth-child(2){
+    position: relative;
+    left: -150px;
+}
+.lists > div > span:nth-child(3){
+    position: relative;
+    left: 100px;
+}
+.lists > div > span:nth-child(4){
+    position: relative;
+    left: 300px;
+}
